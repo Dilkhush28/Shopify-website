@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("LSVerifyThreadRowExistsV2",["LSVerifyThreadExistsV2"],(function(a,b,c,d,e,f){function a(){var a=arguments,c=a[a.length-1],d=[],e=[];return c.sequence([function(e){return c.i64.eq(a[1],c.i64.cast([0,5]))?d[0]=c.i64.cast([-1,4294967284]):d[0]=c.i64.cast([0,0]),c.storedProcedure(b("LSVerifyThreadExistsV2"),a[0],a[1],"inbox",d[0],a[3],!1,a[2],!1,!1)},function(a){return c.resolve(e)}])}e.exports=a}),null);
+__d("LSVerifyThreadRowExistsV2StoredProcedure",["LSVerifyThreadRowExistsV2","cr:8709"],(function(a,b,c,d,e,f,g){function a(a,b){var d=[];d[0]=b.threadKey;d[1]=b.threadType;d[2]=b.syncGroup;d[3]=b.authorityLevel;return c("LSVerifyThreadRowExistsV2").apply(void 0,d.concat([a]))}g["default"]=a}),98);

@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("MAWAuthor",["MAWGlobals","WAJids","isStringNullOrEmpty"],(function(a,b,c,d,e,f,g){"use strict";a=function(a){if(a==null||a===d("WAJids").AUTHOR_SYSTEM)return null;if(d("WAJids").isAuthorMe(a))return d("MAWGlobals").getMyUserJid();var b=d("WAJids").authorAsUserJid(a);if(b==null||c("isStringNullOrEmpty")(d("WAJids").userIdFromJid(b)))return null;else return d("WAJids").authorAsUserJid(a)};g.getAuthorUserJid=a}),98);
+__d("MAWUnsafeCoerce",[],(function(a,b,c,d,e,f){"use strict";function a(a){return a}f.unsafeCoerce=a}),66);

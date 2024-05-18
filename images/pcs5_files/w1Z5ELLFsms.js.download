@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("useIsDailyLimitEnforcementScreenActive",["PolarisReactRedux.react","PolarisScreenTimeUtils","polarisScreenTimeReducer"],(function(a,b,c,d,e,f,g){"use strict";function a(){var a,b;a=(a=d("PolarisReactRedux.react").useSelector(function(a){return(a=a.screenTime)==null?void 0:a.expectedScreenTimeReminderTimestamp}))!=null?a:d("polarisScreenTimeReducer").INITIAL_STATE.expectedScreenTimeReminderTimestamp;b=(b=d("PolarisReactRedux.react").useSelector(function(a){return(a=a.screenTime)==null?void 0:a.upcomingScreenTimeReminderType}))!=null?b:d("polarisScreenTimeReducer").INITIAL_STATE.upcomingScreenTimeReminderType;return d("PolarisScreenTimeUtils").shouldShowDailyLimitEnforcementScreen(a,b)}g["default"]=a}),98);

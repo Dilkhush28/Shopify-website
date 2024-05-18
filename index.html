@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shopify_website</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+
+<body>
+    <header>
+
+        <head class="nav_section">
+            <div class="left">
+                <a href="#thiree.icon"><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAGZJREFUSEvtlrENACAMw8pnnMZpfAYTC1W3CDOEA2JhUpUW0GkQNwx+Zt6qj+ohdp7yKtVLDE6c78DiC+c4t/o46WLX8877rlzYOGGqxU/scYryB4KVCwNja9GtlhvwWpQrrQIx1Rt3TwofeC3yFwAAAABJRU5ErkJggg==" /></a>
+                <span>BLUER</span>
+            </div>
+            <div class="right">
+                <a href=""><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAA7xJREFUSEvFl3fIj2sYxz/IHp2yZcXhhMimKBIiK1mHhMg4ji0kOyMroyQzf8geGQkndLJHiMieiZAie7u/uh7dv9vveZ+fv1z1ej33te5rfa/7zcZvomy/yS+/6jg7UB+oAJSySz8EbgGnga+ZBpKp47+A4UBnoGiM8afAZmARcDPpAkmOCwPLgU5Jhjy+ot4CDAaexell5bgccAD405RlcDdw1vsRq4791APawI/yXQVaAA/SOY9zrHSeA0qb0n3gb+BEQuSNgPVAWU9PF3oS6qVznBM4ak0k+TXAMOCVKecDWlmDSf86sA94b/wCwBKgt32fdJlrDHz2nadzPBsYZ0Jy2tdTUPr3uBpWCyK4AHQA7nnn0u1j3zOBiVk5VorUkYpa6a0KvDaFXMA1oHxMum+bfBR5IeCKjd1HoJJ/sTDihcAIM6x6HfecTAMmu5t/AoYAG42nqKQnW5OAGZ5OM+CgfS8ARkc837H+/wgo7rrzjFfjSPYiUN3dfJ3LSs8g6k1AV+v2ugHvPFDTMqhSfSffsRrgiJ0LBEYGBt4BuYFZwISAp7PxLqKXgFLskxrtXztoYAiX4lidu9gEugBbAwOXrYZrgV4BT1no4ZDtkmXFZ3e3EdPZP8CyMGJ13XTTKJIGdYRgA2ys1On/maxGSx2cF1jqRRc5V8NG3a5pmRs6VmrVACItANXbp4KAoi4TnEefd4Ealm5fpKS7sBaJaJQ1YkqqlV6BvKitzWvoQ0ZWGjT6vG0uQ0PTXDayJagVaclINsVxQw8SNTZR2tMFWNmhW3Nj7HUodScmCzqe4v6ZanytVE1MiuM8rviPrSt3AB0DY9rFaiDNt0BENRW9dQilNB8GNFZfAr1dbszaOXx4bqP6IXSs79UGkRodgbu6VCTUUWQVs4hMrBtAa3sY6Fvze8qNoFBvhSvFwEg/RK4mwP/G1FqrDWgnaxUWs3PdWGASQWl+ayoZF2kT1XI48MLht8BDlxYJJ47FOdb5TrcS25uAbqmGUqpEgjyNjDLik8okHJhjh2oglSBCuO3hYyLddvrDIgrHRnM8KCHVq4B+gYxmWFArVPtBcQ+BKsAhhzIlPFl1cQT4cf5bAvs9prBA5VPtUyirp48aSfWOXiFa5CqDUEqG9KTJYWAj2f5WEnW/SJE2tY7/6aJJjz29NgRzY7zxScj299rOs3q/iRNOchzpKer5brF3S/C6ARgb98DLpMZx9oXXesxrr+q3SC8PAYh+R++ypKz88l8SiQYzFcg01Znay1juGzC8sh8i2SWvAAAAAElFTkSuQmCC" /></a>
+                <a href=""><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAodJREFUSEvNlk2ITlEYx39jhppmSLHRLIwkU2iyYGNBRON70kSJWfjYsWAzZKvIRsmSjZlpUGjIjJrxkY2UhY+SkWJWsvBRLHzG+U/Pq9Nxz73vve+tceqt9577nOf3fJ9bxyStukni8l+D64GFQAPwDPgdidIUYDHwExgDfqVFM83j9Q52HFgCTDUl34CHwBHgge2tAE4Cy4FptvcDeAIcBUaTDEgCCyJFhzPyf9oMOpAhdwo4ZpH4K5oE7gd2msRH4Dxw0543AvuAmQHsJSBDXtj+IuAQMN+ee4Fu/0wI3uWEJaR1G9jkwvo1gDS6sA4Bq2x/BNiSINdkBq80uR3A5YouH6wiGgdagE9AG/AuEsZmi4Re7wW+ROTmWKFNB14BC5LAq81LvVN+FboyVo/VjHQtc1F8pD++xweBM0ZqB56WQbVqVydo7Qb6QrBa5IQJzAbelwSeC7wxXfuBcyF4j5e3dYCKpoy1zc2CK6ZIxTrRIX6oW4HXXqUKXsa6ax2goTIL+ByC9XwN6DSaenmgRrJyesF0nHXpUx1NrLCP5znwY2CGmzayUP15qyBcI/e6zfi3Nsc/xMDaXwMM2zgsCu8AbhhUl4Z03vcdiF0SOjhoQ/87sDWH52utgDTzZbjG7D+FmnY7+VYLrtDdyQi7D9VNtjnWHVkfAsqxWkF3sWa2rI/BQ6gMvxczNAusc9XAc0GTqjpmoOBXAV0koee5oXnAku1yN9bFAC5DNIlUSMppanirqeqY59ttqOj7Sp4r9/qp+DZ4t1tm61eT41CJPL8ECK6Vy9O0AZJprbvU9aWiUVhpM83jXKuIxxXAUvP2eS5iZFYX0VHoTC0eFwLWmuOaoDr8B/UffB90yxnWAAAAAElFTkSuQmCC" /></a>
+                <a href=""><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAXxJREFUSEvt1r9LVlEcx/GX4JbQ6hShUG4Z0qZig2OBW0jg/+AQJE5CY+i/ENLgIghCi1BUW0I4BWKie+DiavgcOY883e7tfk8Ij8Nzt3PO53ze9/uDe79D+vQM9Ynrf8DDeIyp/NL7+I6LkiBKwEn7Gq9wtwI5wxo2ovAS8CZethivYzkCj4IX8T4bnmbzz3k9h7e4l9fz2GuDR8E/MYaU0gf4VTEe7WTjCHfwFTM3AR7PpslrFW8aTNP+Cn7nHjj/FzwS8TS+ZJNn2G0wfN7p9p189gSp2xufCDjV8GN2eIpPDW5R3dX1KngEB7mebWUqOT/GI1ynvwpOTdHt1hLjiHa2p2R/Rdybrnc4wX0sZefuXh2oTte790eZqhHX1Slau6K7txocqV+TpjFbkYgH4JIMDFJ9/bkdNFf0KxVtsNvfXBP4EQ2nUPcQh907dYPAduefvFBo2ibfwoteUR047aUxZrJmUGgDVM/T/PUNH6oHkdGnFBbS9w18CQsNax/K6ElAAAAAAElFTkSuQmCC" /></a>
+            </div>
+        </head>
+    </header>
+    <header-search>
+        <div class="search-box">
+            <input type="text" name="search" id="search" placeholder="Search" />
+        </div>
+    </header-search>
+    <header-navigation>
+        <div class="head-left">
+            <div class="left">
+                <img class="img" src="./images/pic1-removebg-preview.png" alt="notfound" />
+                <div class="para">
+                    <span>
+                        <h1>LOOK AT THE SMILE</h1>
+                        <p>Discover the world of Denim</p>
+                    </span>
+                </div>
+            </div>
+            <a class="shop" href="#shop">Shop Now</a>
+        </div>
+
+        <div class="footer">
+            <p>
+                Shopping on PrePaid Order | Get 5% off on first order | summer Dress
+            </p>
+        </div>
+        <div class="head-right">
+            <div class="left">
+                <img class="img"  src="./images/pc2-removebg-preview.png" alt="notfound" />
+                <div class="para">
+                    <span>
+                        <h1>SUMMER BREEZE</h1>
+                        <p>in every Thread</p>
+                    </span>
+                </div>
+            </div>
+            <a class="shop" href="#more">Shop Now</a>
+
+        </div>
+
+    </header-navigation>
+    <div class="down">
+        <p>
+            Shopping on PrePaid Order | Get 5% off on first order | summer Dress
+        </p>
+    </div>
+
+    <header-navigation>
+        <div class="about">
+            <div class="left">
+                <img class="img" src="./images/pcs7-removebg-preview.png" alt="notfound" />
+                <div class="para">
+                    <span>
+                        <h1> NEHGA CHURNI </h1>
+                        <p>Discover the world of Best deginer
+                            BRIDE NEHGA CHURNI
+                        </p>
+                    </span>
+                </div>
+            </div>
+            <a class="shop" href="#shop">Shop Now</a>
+
+
+            <div class="footer">
+                <p>
+                    Shopping on PrePaid Order | Get 5% off on first order | summer Dress
+                </p>
+            </div>
+        </div>
+
+        <div class="about">
+            <div class="left">
+                <img class="img" src="./images/pcs6-removebg-preview.png" alt="notfound" />
+                <div class="para">
+                    <span>
+                        <h1>SAREE</h1>
+                    <p>Wedding saree by wolrd best desiner in every Thread</p>
+                </span>
+                </div>
+            </div>
+            <a class="shop" href="#more">Shop Now</a>
+
+        </div>
+
+    </header-navigation>
+
+    <footer>
+        <div class="footer-section">
+            <div class="down-section-news">
+                <h2>NewsLetter</h2>
+                <p>subscribe to receive updates, acces to exclusive deals, and More.</p>
+                <input type="text" name="email" id="email" placeholder="Enter your Emails">
+                <button>subscribe</button>
+
+            </div>
+            <div class="down-section-news">
+                <h2> Account</h2>
+                <a class="text-footer" href="#login">LogIn</a>
+                <a class="text-footer" href="#accout">Create an Account</a>
+                <a class="text-footer" href="#Order">My Order</a>
+            </div>
+        </div>
+        <div class="down-section-news">
+            <h2>Company</h2>
+            <a class="text-footer" href="#about">About</a>
+            <a class="text-footer" href="#careers">Career</a>
+            <a class="text-footer" href="#factory">Factory</a>
+        </div>
+        <div class="down-section-news">
+            <h2>Get Help</h2>
+            <a class="text-footer" href="#help">Help Center</a>
+            <a class="text-footer" href="#Return">Return Policy</a>
+            <a class="text-footer" href="#Privacy">Privacy Policy</a>
+            <a class="text-footer" href="#Shipping">Shipping Policy</a>
+            <a class="text-footer" href="#payment">Shipping & Payment</a>
+            <a class="text-footer" href="#Return">Return & Exchange</a>
+            <a class="text-footer" href="#contact">Contact Us</a>
+        </div>
+        <div class="connect">
+            <h2>Connect With Us</h2>
+            <a href="https://www.facebook.com/mohamed.dilkhush" target="_blank"><i class="bx bxl-facebook"></i></a>
+            <a href=""><i class="bx bxl-twitter"></i></a>
+            <a href="https://www.instagram.com/d.k_sammer_28/" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
+            <a href="https://www.linkedin.com/in/md-dilkhush-943a0321a" target="_blank"><i
+                    class="bx bxl-linkedin-square"></i></a>
+        </div>
+
+    </footer>
+
+    <i class='bx bxl-facebook-square'></i>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

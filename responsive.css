@@ -1,0 +1,71 @@
+@media only screen and (max-width: 1400px) {
+  .left {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+  }
+  body {
+    background-color: brown;
+  }
+}
+ @media only screen and (max-width: 930px) {
+  header-navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+  }
+  navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+  }
+  .para{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+} 
+@media only screen and(mim-width:490px) and (max-width: 925px) {
+  .head-left{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+
+  }
+}
+@media only screen and (max-width:366px){
+  .head-right{
+    display: none;
+  }
+  span p h3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width:450px) and (min-width:100px){
+  header{
+    display:none;
+  }
+}
+@media only screen and (max-width:278px){
+  header-navigation h1{
+  font-size: 1.5rem;
+  font-weight: 450;
+  }
+  header-navigation p{
+    font-size: 1rem;
+    font-weight: 400; 
+   }
+   header-navigation .shop{
+  padding: .5rem;
+    text-align: center;
+    align-items: center;
+   }
+}

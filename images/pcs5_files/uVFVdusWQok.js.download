@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("MAWSubscribeToContactNames",["fbt","$InternalEnum","Env","gkx"],(function(a,b,c,d,e,f,g,h){"use strict";var i;d=b("$InternalEnum").Mirrored(["FIRST_NAME","FULL_NAME"]);var j=Boolean((i||(i=c("Env"))).isMessengerDotComOnComet)?"Messenger":c("gkx")("22979")?"Instagram":"Facebook";function k(){return h._("__JHASH__qNfUY0OKWF7__JHASH__",[h._param("Platform Name",j)]).toString()}function a(a,b){return(a=a.get(b))!=null?a:k()}g.ContactNameMode=d;g.getUnknownUser=k;g.getContactNameFromLookup=a}),226);
+__d("first",[],(function(a,b,c,d,e,f){"use strict";function a(a){for(var a=a,b=Array.isArray(a),c=0,a=b?a:a[typeof Symbol==="function"?Symbol.iterator:"@@iterator"]();;){var d;if(b){if(c>=a.length)break;d=a[c++]}else{c=a.next();if(c.done)break;d=c.value}d=d;return d}return null}f["default"]=a}),66);
